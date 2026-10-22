@@ -1,0 +1,33 @@
+# Dataset config for fine-tuning YOLO on produce.
+# Class names should match ingredient ids (or any alias in data/ingredients.json).
+# Images/labels in YOLO format: <path>/images/{train,val} and <path>/labels/{train,val}.
+path: datasets/produce
+train: images/train
+val: images/val
+names:
+  0: apple
+  1: banana
+  2: orange
+  3: mango
+  4: lemon
+  5: tomato
+  6: onion
+  7: potato
+  8: carrot
+  9: beetroot
+  10: broccoli
+  11: cauliflower
+  12: cabbage
+  13: capsicum
+  14: cucumber
+  15: brinjal
+  16: beans
+  17: spinach
+  18: coriander
+  19: green_chilli
+  20: garlic
+  21: ginger
+  22: grapes
+  23: pear
+  24: pomegranate
+  25: pineapple

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# Secrets
+.env
+
+# Model weights and training output (too big for GitHub)
+*.pt
+weights/
+runs/
+datasets/
+
+# Mac
+.DS_Store

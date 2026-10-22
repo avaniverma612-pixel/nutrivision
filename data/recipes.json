@@ -1,0 +1,597 @@
+{
+ "_note": "Quantities are grams per serving. Spices, salt and water are assumed to be available and are not tracked.",
+ "recipes": [
+  {
+   "id": "veg_poha",
+   "name": "Vegetable poha",
+   "meal_types": [
+    "breakfast"
+   ],
+   "ingredients": {
+    "poha": 60,
+    "onion": 40,
+    "potato": 50,
+    "green_chilli": 5,
+    "peanuts": 10,
+    "lemon": 10,
+    "oil": 8,
+    "coriander": 5
+   },
+   "description": "Flattened rice tempered with mustard seeds, onion and potato, finished with lemon.",
+   "video_query": "healthy vegetable poha recipe"
+  },
+  {
+   "id": "veg_upma",
+   "name": "Vegetable upma",
+   "meal_types": [
+    "breakfast"
+   ],
+   "ingredients": {
+    "semolina": 60,
+    "onion": 30,
+    "carrot": 30,
+    "green_chilli": 5,
+    "ginger": 3,
+    "oil": 8
+   },
+   "description": "Roasted rava cooked with vegetables and a mustard-curry-leaf tempering.",
+   "video_query": "vegetable rava upma recipe"
+  },
+  {
+   "id": "banana_oats",
+   "name": "Banana oat porridge",
+   "meal_types": [
+    "breakfast"
+   ],
+   "ingredients": {
+    "oats": 50,
+    "milk": 200,
+    "banana": 60
+   },
+   "description": "Oats simmered in milk and topped with sliced banana.",
+   "video_query": "banana oats porridge recipe"
+  },
+  {
+   "id": "masala_omelette",
+   "name": "Masala omelette with toast",
+   "meal_types": [
+    "breakfast"
+   ],
+   "ingredients": {
+    "eggs": 100,
+    "onion": 30,
+    "tomato": 40,
+    "green_chilli": 3,
+    "bread": 60,
+    "oil": 5
+   },
+   "description": "Two-egg omelette with onion, tomato and chilli, served with whole wheat toast.",
+   "video_query": "masala omelette recipe"
+  },
+  {
+   "id": "besan_chilla",
+   "name": "Besan chilla",
+   "meal_types": [
+    "breakfast"
+   ],
+   "ingredients": {
+    "besan": 50,
+    "onion": 25,
+    "tomato": 30,
+    "capsicum": 30,
+    "coriander": 5,
+    "oil": 6
+   },
+   "description": "Savoury gram-flour pancakes loaded with vegetables.",
+   "video_query": "besan chilla recipe vegetables"
+  },
+  {
+   "id": "fruit_yogurt_bowl",
+   "name": "Fruit and curd bowl",
+   "meal_types": [
+    "breakfast"
+   ],
+   "ingredients": {
+    "curd": 150,
+    "apple": 60,
+    "banana": 50,
+    "grapes": 40,
+    "pear": 50,
+    "oats": 20
+   },
+   "description": "Thick curd with chopped seasonal fruit and toasted oats.",
+   "video_query": "fruit yogurt bowl healthy breakfast"
+  },
+  {
+   "id": "aloo_paratha",
+   "name": "Aloo paratha with curd",
+   "meal_types": [
+    "breakfast",
+    "lunch"
+   ],
+   "ingredients": {
+    "atta": 80,
+    "potato": 100,
+    "green_chilli": 3,
+    "coriander": 5,
+    "oil": 10,
+    "curd": 50
+   },
+   "description": "Whole wheat flatbread stuffed with spiced potato.",
+   "video_query": "aloo paratha recipe"
+  },
+  {
+   "id": "tofu_bhurji",
+   "name": "Tofu bhurji with toast",
+   "meal_types": [
+    "breakfast"
+   ],
+   "ingredients": {
+    "tofu": 120,
+    "onion": 30,
+    "tomato": 40,
+    "capsicum": 30,
+    "bread": 60,
+    "oil": 6
+   },
+   "description": "Crumbled tofu scrambled with onion, tomato and capsicum.",
+   "video_query": "tofu bhurji recipe"
+  },
+  {
+   "id": "mango_oat_smoothie",
+   "name": "Mango oat smoothie",
+   "meal_types": [
+    "breakfast"
+   ],
+   "ingredients": {
+    "mango": 120,
+    "milk": 200,
+    "oats": 30
+   },
+   "description": "Blended ripe mango, milk and oats.",
+   "video_query": "mango oats smoothie recipe"
+  },
+  {
+   "id": "paneer_sandwich",
+   "name": "Paneer vegetable sandwich",
+   "meal_types": [
+    "breakfast"
+   ],
+   "ingredients": {
+    "bread": 80,
+    "paneer": 60,
+    "cucumber": 50,
+    "tomato": 40,
+    "capsicum": 30
+   },
+   "description": "Grilled sandwich with crumbled paneer and fresh vegetables.",
+   "video_query": "paneer vegetable sandwich recipe"
+  },
+  {
+   "id": "dal_tadka_rice",
+   "name": "Dal tadka with rice",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "toor_dal": 60,
+    "rice": 70,
+    "tomato": 50,
+    "onion": 40,
+    "garlic": 5,
+    "oil": 8
+   },
+   "description": "Toor dal finished with a garlic and cumin tadka, served with steamed rice.",
+   "video_query": "dal tadka recipe"
+  },
+  {
+   "id": "aloo_gobi_roti",
+   "name": "Aloo gobi with roti",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "potato": 120,
+    "cauliflower": 150,
+    "onion": 30,
+    "tomato": 40,
+    "atta": 80,
+    "oil": 10
+   },
+   "description": "Dry potato and cauliflower curry with whole wheat rotis.",
+   "video_query": "aloo gobi recipe"
+  },
+  {
+   "id": "palak_paneer_roti",
+   "name": "Palak paneer with roti",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "spinach": 200,
+    "paneer": 80,
+    "onion": 40,
+    "tomato": 40,
+    "garlic": 5,
+    "ginger": 3,
+    "atta": 80,
+    "oil": 10
+   },
+   "description": "Paneer cubes in a smooth spinach gravy.",
+   "video_query": "palak paneer recipe healthy"
+  },
+  {
+   "id": "chana_masala_rice",
+   "name": "Chana masala with rice",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "chickpeas": 60,
+    "onion": 50,
+    "tomato": 70,
+    "ginger": 5,
+    "garlic": 5,
+    "rice": 70,
+    "oil": 8
+   },
+   "description": "Chickpeas in a tangy onion-tomato masala.",
+   "video_query": "chana masala recipe"
+  },
+  {
+   "id": "veg_pulao",
+   "name": "Vegetable pulao with raita",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "rice": 80,
+    "carrot": 40,
+    "beans": 40,
+    "potato": 50,
+    "onion": 30,
+    "oil": 10,
+    "curd": 80,
+    "cucumber": 40
+   },
+   "description": "One-pot spiced rice with mixed vegetables and cucumber raita.",
+   "video_query": "vegetable pulao recipe"
+  },
+  {
+   "id": "egg_curry_rice",
+   "name": "Egg curry with rice",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "eggs": 100,
+    "onion": 60,
+    "tomato": 70,
+    "garlic": 5,
+    "rice": 70,
+    "oil": 10
+   },
+   "description": "Boiled eggs simmered in onion-tomato gravy.",
+   "video_query": "egg curry recipe"
+  },
+  {
+   "id": "chicken_curry_roti",
+   "name": "Chicken curry with roti",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "chicken": 150,
+    "onion": 60,
+    "tomato": 60,
+    "garlic": 6,
+    "ginger": 5,
+    "atta": 80,
+    "oil": 12
+   },
+   "description": "Home-style chicken curry with whole wheat rotis.",
+   "video_query": "home style chicken curry recipe"
+  },
+  {
+   "id": "broccoli_tofu_stirfry",
+   "name": "Broccoli tofu stir-fry with rice",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "broccoli": 150,
+    "tofu": 100,
+    "capsicum": 50,
+    "garlic": 5,
+    "rice": 70,
+    "oil": 10
+   },
+   "description": "Quick garlicky stir-fry of broccoli, tofu and capsicum.",
+   "video_query": "broccoli tofu stir fry"
+  },
+  {
+   "id": "cabbage_dal_rice",
+   "name": "Cabbage poriyal with dal and rice",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "cabbage": 150,
+    "toor_dal": 50,
+    "rice": 70,
+    "green_chilli": 3,
+    "oil": 8
+   },
+   "description": "South Indian style cabbage stir-fry served with plain dal and rice.",
+   "video_query": "cabbage poriyal recipe"
+  },
+  {
+   "id": "baingan_bharta_roti",
+   "name": "Baingan bharta with roti",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "brinjal": 200,
+    "onion": 50,
+    "tomato": 60,
+    "garlic": 5,
+    "atta": 80,
+    "oil": 10
+   },
+   "description": "Smoky mashed roasted brinjal with onion and tomato.",
+   "video_query": "baingan bharta recipe"
+  },
+  {
+   "id": "mixed_veg_roti",
+   "name": "Mixed vegetable sabzi with roti",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "carrot": 50,
+    "beans": 50,
+    "capsicum": 50,
+    "cauliflower": 80,
+    "tomato": 40,
+    "atta": 80,
+    "oil": 10
+   },
+   "description": "Dry mixed vegetable curry with whole wheat rotis.",
+   "video_query": "mixed vegetable sabzi recipe"
+  },
+  {
+   "id": "chickpea_salad",
+   "name": "Beetroot, carrot and chickpea salad",
+   "meal_types": [
+    "lunch"
+   ],
+   "ingredients": {
+    "beetroot": 80,
+    "carrot": 60,
+    "cucumber": 80,
+    "chickpeas": 50,
+    "lemon": 15,
+    "oil": 5
+   },
+   "description": "Crunchy salad of grated beetroot and carrot with boiled chickpeas and lemon.",
+   "video_query": "chickpea beetroot salad recipe"
+  },
+  {
+   "id": "curd_rice",
+   "name": "Curd rice with cucumber",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "rice": 70,
+    "curd": 150,
+    "cucumber": 80,
+    "green_chilli": 3
+   },
+   "description": "Cooling rice mixed with curd and tempered with mustard seeds.",
+   "video_query": "curd rice recipe"
+  },
+  {
+   "id": "tomato_rasam_rice",
+   "name": "Tomato rasam with rice",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "tomato": 120,
+    "toor_dal": 30,
+    "rice": 70,
+    "garlic": 4,
+    "oil": 5
+   },
+   "description": "Peppery tomato and dal broth served over rice.",
+   "video_query": "tomato rasam recipe"
+  },
+  {
+   "id": "paneer_capsicum_roti",
+   "name": "Paneer capsicum stir-fry with roti",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "paneer": 100,
+    "capsicum": 100,
+    "tomato": 50,
+    "atta": 80,
+    "oil": 10
+   },
+   "description": "Paneer and capsicum tossed with tomato and spices.",
+   "video_query": "paneer capsicum recipe"
+  },
+  {
+   "id": "chicken_veg_stirfry",
+   "name": "Chicken and vegetable stir-fry with rice",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "chicken": 130,
+    "broccoli": 100,
+    "capsicum": 60,
+    "carrot": 40,
+    "garlic": 5,
+    "rice": 70,
+    "oil": 10
+   },
+   "description": "Lean chicken stir-fried with broccoli, capsicum and carrot.",
+   "video_query": "chicken vegetable stir fry healthy"
+  },
+  {
+   "id": "palak_dal_roti",
+   "name": "Palak dal with roti",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "spinach": 150,
+    "toor_dal": 60,
+    "tomato": 40,
+    "garlic": 5,
+    "atta": 80,
+    "oil": 8
+   },
+   "description": "Toor dal cooked with spinach and finished with a garlic tadka.",
+   "video_query": "palak dal recipe"
+  },
+  {
+   "id": "veg_khichdi",
+   "name": "Vegetable khichdi",
+   "meal_types": [
+    "dinner"
+   ],
+   "ingredients": {
+    "rice": 50,
+    "toor_dal": 40,
+    "carrot": 30,
+    "beans": 30,
+    "tomato": 30,
+    "oil": 8
+   },
+   "description": "Soft one-pot rice and dal with vegetables.",
+   "video_query": "vegetable khichdi recipe"
+  },
+  {
+   "id": "veg_soup_bread",
+   "name": "Vegetable soup with toast",
+   "meal_types": [
+    "dinner"
+   ],
+   "ingredients": {
+    "tomato": 100,
+    "carrot": 50,
+    "cabbage": 80,
+    "beans": 40,
+    "bread": 60,
+    "oil": 5
+   },
+   "description": "Light, chunky vegetable soup with whole wheat toast.",
+   "video_query": "healthy vegetable soup recipe"
+  },
+  {
+   "id": "beans_dal_rice",
+   "name": "Beans palya with dal and rice",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "beans": 120,
+    "toor_dal": 50,
+    "tomato": 50,
+    "rice": 70,
+    "oil": 8
+   },
+   "description": "Green beans stir-fried with mustard seeds, served with dal and rice.",
+   "video_query": "beans palya recipe"
+  },
+  {
+   "id": "fruit_chaat",
+   "name": "Fruit chaat",
+   "meal_types": [
+    "breakfast"
+   ],
+   "ingredients": {
+    "apple": 80,
+    "banana": 60,
+    "orange": 80,
+    "lemon": 10,
+    "peanuts": 15
+   },
+   "description": "Chopped fresh fruit tossed with lemon, chaat masala and roasted peanuts.",
+   "video_query": "fruit chaat recipe"
+  },
+  {
+   "id": "tomato_besan_chilla",
+   "name": "Tomato besan chilla (no onion)",
+   "meal_types": [
+    "breakfast"
+   ],
+   "ingredients": {
+    "besan": 55,
+    "tomato": 40,
+    "capsicum": 30,
+    "coriander": 5,
+    "oil": 6
+   },
+   "description": "Gram-flour pancakes with tomato and capsicum, made without onion or garlic.",
+   "video_query": "jain besan chilla recipe no onion"
+  },
+  {
+   "id": "cabbage_capsicum_roti",
+   "name": "Cabbage capsicum sabzi with roti",
+   "meal_types": [
+    "lunch",
+    "dinner"
+   ],
+   "ingredients": {
+    "cabbage": 150,
+    "capsicum": 60,
+    "tomato": 40,
+    "atta": 80,
+    "oil": 10
+   },
+   "description": "Quick stir-fried cabbage and capsicum with whole wheat rotis.",
+   "video_query": "cabbage capsicum sabzi recipe"
+  },
+  {
+   "id": "mixed_fruit_salad",
+   "name": "Mixed fruit salad",
+   "meal_types": [
+    "breakfast"
+   ],
+   "ingredients": {
+    "grapes": 60,
+    "pear": 80,
+    "pomegranate": 40,
+    "pineapple": 60,
+    "banana": 50,
+    "lemon": 5,
+    "oats": 20
+   },
+   "description": "Chopped seasonal fruit with a squeeze of lemon and a sprinkle of toasted oats.",
+   "video_query": "healthy mixed fruit salad recipe"
+  }
+ ]
+}
